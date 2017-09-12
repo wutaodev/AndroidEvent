@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  * 事件冲突，SwipeRefreshLayout嵌套多布局RecyclerView，item是ViewPager
- * ViewPager设置onTouch事件监听解决
+ * ViewPager设置onTouch事件监听解决，判断滑动方向
  */
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
     private static final String TAG = "MainActivity";
